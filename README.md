@@ -1,35 +1,26 @@
 # Business-Management-System
-Business Management System Asp.Net Core Mvc - Layered Architecture
 
-You can get reports, assign works, look at charts and statistics. There are two roles (Admin and Member)
+## Overview
+Business Management System is an ASP.NET Core MVC application designed with a layered architecture to streamline business operations. The system allows users to generate reports, assign tasks, and view various charts and statistics. The application supports two user roles: Admin and Member.
 
+## Key Features
+- **Reporting**: Generate detailed reports on various business metrics.
+- **Task Management**: Assign and manage tasks effectively.
+- **Charts and Statistics**: Visualize data using interactive charts and statistics.
 
-<h3> Technologies implemented </h3>
-<hr>
- 
+## Technologies Implemented
+- **ASP.NET Core 8.0**: Leveraging the latest features of .NET 8 for improved performance and security.
+- **ASP.NET Core MVC**: Robust framework for building dynamic, data-driven web applications.
+- **ASP.NET Identity Core**: Secure and scalable identity management for user authentication and authorization.
+- **Entity Framework Core**: Modern object-database mapper for data access.
+- **AutoMapper**: Simplifies object-to-object mapping.
+- **FluentValidation**: Enhances validation capabilities with a fluent interface.
+- **Google Charts**: Provides interactive charts for data visualization.
+- **NLog**: Advanced logging framework for .NET applications.
 
-<ul>
+## Roles
+- **Admin**: Full access to all features, including user management and system configuration.
+- **Member**: Limited access, primarily focused on task management and reporting.
 
-<li>ASP.NET Core 3.1 (with .NET Core 3.1)</li>
-<li>ASP.NET Core MVC </li>
-<li>ASP.NET Identity Core </li>
-<li>Entity Framework Core</li>
-<li>AutoMapper </li>
-<li>FluentValidator </li>
-<li>Google Charts </li>
-<li>NLog </li>
-
-</ul>
-
-<hr>
-
- <img  src="https://github.com/kemalyuksel/Business-Management-System/blob/master/SampleImages/Profile.png" width="720px">
- <img src="https://github.com/kemalyuksel/Business-Management-System/blob/master/SampleImages/AdminPage/adminHome.png" width="720px" >
-  <img src="https://github.com/kemalyuksel/Business-Management-System/blob/master/SampleImages/AdminPage/adminCharts.png" width="720px" >
-   <img src="https://github.com/kemalyuksel/Business-Management-System/blob/master/SampleImages/AdminPage/adminReports.png" width="720px" >
-    <img src="https://github.com/kemalyuksel/Business-Management-System/blob/master/SampleImages/AdminPage/adminStaffList.png" width="720px" >
-    <hr>
-     <img src="https://github.com/kemalyuksel/Business-Management-System/blob/master/SampleImages/UserPage/userHome.png" width="720px" >
-      <img src="https://github.com/kemalyuksel/Business-Management-System/blob/master/SampleImages/UserPage/userWorkOrder.png" width="720px" >
-      <img src="https://github.com/kemalyuksel/Business-Management-System/blob/master/SampleImages/UserPage/userNotification.png" width="720px" >
-      
+## Conclusion
+The Business Management System is designed to enhance productivity and efficiency in business operations by providing a comprehensive suite of tools for reporting, task management, and data visualization. Built on the robust ASP.NET Core 8.0 framework, the system ensures high performance, security, and scalability.
